@@ -1,0 +1,42 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,18283.94,219407.28,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),VPC - us-east-1,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+Increased_Cost_Estimate,US East (N. Virginia),VPC - us-east-1,Network Address Translation (NAT) Gateway,0,263.25,3159.00,USD,,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),CloudFront - us-east-1,Amazon CloudFront,0,920.4,11044.80,USD,,"Data transfer out to internet (10 TB per month), Number of requests (HTTPS) (50000000 per month)"
+Increased_Cost_Estimate,US East (N. Virginia),S3 - us-east-1,S3 Standard,0,706.56,8478.72,USD,,S3 Standard storage (30 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),S3 - us-east-1,S3 Standard - Infrequent Access,0,12.8,153.60,USD,,S3 Standard-IA storage (1 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),S3 - us-east-1,S3 Glacier Instant Retrieval,0,2,24.00,USD,,S3 Glacier Instant Retrieval storage (500 GB per month)
+Increased_Cost_Estimate,US East (N. Virginia),S3 - us-east-1,Data Transfer,0,0,0.00,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (10 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),RDS PostgreSQL - us-east-1,Amazon RDS for PostgreSQL,0,2919.8399999999997,35038.08,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (2 TB)"
+Increased_Cost_Estimate,US East (N. Virginia),Web Server - us-east-1,Amazon EC2 ,0,2648.44,31781.28,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),App Server - us-east-1,Amazon EC2 ,0,1188.44,14261.28,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),ELB - us-east-1,Application Load Balancer,0,32.85,394.20,USD,,Number of Application Load Balancers on Outposts (2)
+Increased_Cost_Estimate,US East (N. Virginia),ElastiCache - us-east-1,Amazon ElastiCache,0,454.79,5457.48,USD,,"Nodes (1), Instance type (cache.m5.2xlarge), Cache Engine (Redis), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Standard), Pricing strategy (OnDemand), Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+Increased_Cost_Estimate,US East (Ohio),VPC - us-east-2,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+Increased_Cost_Estimate,US East (Ohio),VPC - us-east-2,Network Address Translation (NAT) Gateway,0,263.25,3159.00,USD,,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (Ohio),CloudFront - us-east-2,Amazon CloudFront,0,920.4,11044.80,USD,,"Data transfer out to internet (10 TB per month), Number of requests (HTTPS) (50000000 per month)"
+Increased_Cost_Estimate,US East (Ohio),S3 - us-east-2,S3 Standard,0,706.56,8478.72,USD,,S3 Standard storage (30 TB per month)
+Increased_Cost_Estimate,US East (Ohio),S3 - us-east-2,Data Transfer,0,0,0.00,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (10 TB per month)"
+Increased_Cost_Estimate,US East (Ohio),RDS PostgreSQL - us-east-2,Amazon RDS for PostgreSQL,0,2919.8399999999997,35038.08,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (2 TB)"
+Increased_Cost_Estimate,US East (Ohio),Web Server - us-east-2,Amazon EC2 ,0,2648.44,31781.28,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (Ohio),App Server - us-east-2,Amazon EC2 ,0,1188.44,14261.28,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (Ohio),ELB - us-east-2,Application Load Balancer,0,32.85,394.20,USD,,Number of Application Load Balancers on Outposts (2)
+Increased_Cost_Estimate,US East (Ohio),ElastiCache - us-east-2,Amazon ElastiCache,0,454.79,5457.48,USD,,"Nodes (1), Instance type (cache.m5.2xlarge), Cache Engine (Redis), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Standard), Pricing strategy (OnDemand), Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Increased Cost Estimate
+Set up in us-east-2 with VPC NAT Gateway, CloudFront, S3 Bucket, Elastic Load Balancing, RDS read replica and ElasticCache
+Add more EC2 and RDS instance in us-east-2
+A second region - us-east-2 for failover if the us-east-1 region goes down. 
+Larger RDS instances and EC2 instances improve application performance
+Prepare for growth of the platform over time.

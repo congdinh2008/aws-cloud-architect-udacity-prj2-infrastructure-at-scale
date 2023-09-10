@@ -1,0 +1,8 @@
+Initial_Cost_Estimate:
+https://calculator.aws/#/estimate?id=d81ee990264a1bc71920b50e1b5805fc59c22b4b
+
+Reduced_Cost_Estimate
+https://calculator.aws/#/estimate?id=42c7ea15c7ddd7f967bdaa3b2dad21e29d1cdb5c
+
+Increased_Cost_Estimate
+https://calculator.aws/#/estimate?id=f3a259a32b61b2a1616aca0fd11b27bdcfd73951
